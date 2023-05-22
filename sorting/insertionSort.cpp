@@ -25,7 +25,7 @@ int main()
     cin>>N;
     int arr[N];
     for(int i=0;i<N;i++){
-        arr[i]=rand()*1000;
+        arr[i]=rand()*N;
     }
     cout<<"Array before sorting: ";
     for(int i=0;i<N;i++){
